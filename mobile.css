@@ -2,11 +2,10 @@
 /* mobile */
 
 @media screen and (max-width: 750px) {
-  body-mobile{
+  .header {
     display: none;
   }
- .nav {
-  display: none;
-  flex-wrap: wrap;
- } 
+  .mobileHeader {
+    display: flex;
+  }
 }
